@@ -32,8 +32,8 @@ targets:
 
     dependencies:
     - target: RiotShareExtension
-    - target: SiriIntents
-    - target: RiotNSE
+    #- target: SiriIntents
+    #- target: RiotNSE
     - target: CommonKit
     - package: DesignKit
     - package: Mapbox
