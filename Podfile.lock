@@ -123,8 +123,8 @@ DEPENDENCIES:
   - KeychainAccess (~> 4.2.2)
   - KTCenterFlowLayout (~> 1.3.1)
   - libPhoneNumber-iOS (~> 0.9.13)
-  - MatrixSDK (= 0.23.15)
-  - MatrixSDK/JingleCallStack (= 0.23.15)
+  - MatrixSDK (from `https://github.com/matrix-org/matrix-ios-sdk.git`, branch `develop`)
+  - MatrixSDK/JingleCallStack (from `https://github.com/matrix-org/matrix-ios-sdk.git`, branch `develop`)
   - OLMKit
   - PostHog (~> 1.4.4)
   - ReadMoreTextView (~> 3.0.1)
@@ -166,7 +166,6 @@ SPEC REPOS:
     - libPhoneNumber-iOS
     - LoggerAPI
     - Logging
-    - MatrixSDK
     - MatrixSDKCrypto
     - OLMKit
     - PostHog
@@ -190,11 +189,17 @@ EXTERNAL SOURCES:
   AnalyticsEvents:
     :branch: release/swift
     :git: https://github.com/matrix-org/matrix-analytics-events.git
+  MatrixSDK:
+    :branch: develop
+    :git: https://github.com/matrix-org/matrix-ios-sdk.git
 
 CHECKOUT OPTIONS:
   AnalyticsEvents:
     :commit: b275ccb194a219a61b3100159d51cadbf7c9020c
     :git: https://github.com/matrix-org/matrix-analytics-events.git
+  MatrixSDK:
+    :commit: ca9a0ef48a5a3abb14b4af65437f72e49ef6deca
+    :git: https://github.com/matrix-org/matrix-ios-sdk.git
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -241,6 +246,6 @@ SPEC CHECKSUMS:
   zxcvbn-ios: fef98b7c80f1512ff0eec47ac1fa399fc00f7e3c
   ZXingObjC: fdbb269f25dd2032da343e06f10224d62f537bdb
 
-PODFILE CHECKSUM: 044b4d9f0d9485e1407019fb3c7b267458120a89
+PODFILE CHECKSUM: 4009c645fe2d74f5ccb2c21b2da76cf7885a9152
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

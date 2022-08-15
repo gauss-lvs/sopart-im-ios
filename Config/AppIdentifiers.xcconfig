@@ -16,13 +16,13 @@
 
 
 // App identity
-BUNDLE_DISPLAY_NAME = Element
-BASE_BUNDLE_IDENTIFIER = im.vector.app
-APPLICATION_GROUP_IDENTIFIER = group.im.vector
+BUNDLE_DISPLAY_NAME = SoPart.IM
+BASE_BUNDLE_IDENTIFIER = de.gausslvs.sopart.im
+APPLICATION_GROUP_IDENTIFIER = group.de.gausslvs
 APPLICATION_SCHEME = element
 
 // Team
-DEVELOPMENT_TEAM = 7J4U792NQT
+DEVELOPMENT_TEAM = AY9F9FW7F5
 
 
 // Provisioning profiles
